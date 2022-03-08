@@ -1,0 +1,593 @@
+current time: 0.0
+future event queue:
+	[A, customer:02,	0.13888411900284545]
+	[A, customer:01,	0.1623742271487059]
+delayed event queue:
+server1: Idle server2: Idle 
+--------------------------------------------------
+
+current time: 0.13888411900284545
+future event queue:
+	[A, customer:01,	0.1623742271487059]
+	[A, customer:03,	0.17968145725737036]
+	[D, customer:02,	0.6769450568083937]
+delayed event queue:
+server1: Busy server2: Idle 
+--------------------------------------------------
+
+current time: 0.1623742271487059
+future event queue:
+	[A, customer:03,	0.17968145725737036]
+	[A, customer:04,	0.18746492754135866]
+	[D, customer:01,	0.23128527235872914]
+	[D, customer:02,	0.6769450568083937]
+delayed event queue:
+server1: Busy server2: Busy 
+--------------------------------------------------
+
+current time: 0.17968145725737036
+future event queue:
+	[A, customer:04,	0.18746492754135866]
+	[D, customer:01,	0.23128527235872914]
+	[A, customer:05,	0.27720823652899534]
+	[D, customer:02,	0.6769450568083937]
+delayed event queue:
+	[A, customer:03,	0.17968145725737036]
+server1: Busy server2: Busy 
+--------------------------------------------------
+
+current time: 0.18746492754135866
+future event queue:
+	[D, customer:01,	0.23128527235872914]
+	[A, customer:06,	0.26403357343440725]
+	[A, customer:05,	0.27720823652899534]
+	[D, customer:02,	0.6769450568083937]
+delayed event queue:
+	[A, customer:03,	0.17968145725737036]
+	[A, customer:04,	0.18746492754135866]
+server1: Busy server2: Busy 
+--------------------------------------------------
+
+current time: 0.23128527235872914
+future event queue:
+	[D, customer:03,	0.2581452221956063]
+	[A, customer:06,	0.26403357343440725]
+	[A, customer:05,	0.27720823652899534]
+	[D, customer:02,	0.6769450568083937]
+delayed event queue:
+	[A, customer:04,	0.18746492754135866]
+server1: Busy server2: Busy 
+--------------------------------------------------
+
+current time: 0.2581452221956063
+future event queue:
+	[A, customer:06,	0.26403357343440725]
+	[A, customer:05,	0.27720823652899534]
+	[D, customer:04,	0.3118757041523422]
+	[D, customer:02,	0.6769450568083937]
+delayed event queue:
+server1: Busy server2: Busy 
+--------------------------------------------------
+
+current time: 0.26403357343440725
+future event queue:
+	[A, customer:07,	0.26753448384997763]
+	[A, customer:05,	0.27720823652899534]
+	[D, customer:04,	0.3118757041523422]
+	[D, customer:02,	0.6769450568083937]
+delayed event queue:
+	[A, customer:06,	0.26403357343440725]
+server1: Busy server2: Busy 
+--------------------------------------------------
+
+current time: 0.26753448384997763
+future event queue:
+	[A, customer:05,	0.27720823652899534]
+	[D, customer:04,	0.3118757041523422]
+	[A, customer:08,	0.5747093628444706]
+	[D, customer:02,	0.6769450568083937]
+delayed event queue:
+	[A, customer:06,	0.26403357343440725]
+	[A, customer:07,	0.26753448384997763]
+server1: Busy server2: Busy 
+--------------------------------------------------
+
+current time: 0.27720823652899534
+future event queue:
+	[D, customer:04,	0.3118757041523422]
+	[A, customer:09,	0.37956254505753945]
+	[A, customer:08,	0.5747093628444706]
+	[D, customer:02,	0.6769450568083937]
+delayed event queue:
+	[A, customer:06,	0.26403357343440725]
+	[A, customer:07,	0.26753448384997763]
+	[A, customer:05,	0.27720823652899534]
+server1: Busy server2: Busy 
+--------------------------------------------------
+
+current time: 0.3118757041523422
+future event queue:
+	[D, customer:06,	0.3465698655979868]
+	[A, customer:09,	0.37956254505753945]
+	[A, customer:08,	0.5747093628444706]
+	[D, customer:02,	0.6769450568083937]
+delayed event queue:
+	[A, customer:07,	0.26753448384997763]
+	[A, customer:05,	0.27720823652899534]
+server1: Busy server2: Busy 
+--------------------------------------------------
+
+current time: 0.3465698655979868
+future event queue:
+	[A, customer:09,	0.37956254505753945]
+	[D, customer:07,	0.4337477398725626]
+	[A, customer:08,	0.5747093628444706]
+	[D, customer:02,	0.6769450568083937]
+delayed event queue:
+	[A, customer:05,	0.27720823652899534]
+server1: Busy server2: Busy 
+--------------------------------------------------
+
+current time: 0.37956254505753945
+future event queue:
+	[D, customer:07,	0.4337477398725626]
+	[A, customer:10,	0.4528025643263787]
+	[A, customer:08,	0.5747093628444706]
+	[D, customer:02,	0.6769450568083937]
+delayed event queue:
+	[A, customer:05,	0.27720823652899534]
+	[A, customer:09,	0.37956254505753945]
+server1: Busy server2: Busy 
+--------------------------------------------------
+
+current time: 0.4337477398725626
+future event queue:
+	[D, customer:05,	0.44451988830275135]
+	[A, customer:10,	0.4528025643263787]
+	[A, customer:08,	0.5747093628444706]
+	[D, customer:02,	0.6769450568083937]
+delayed event queue:
+	[A, customer:09,	0.37956254505753945]
+server1: Busy server2: Busy 
+--------------------------------------------------
+
+current time: 0.44451988830275135
+future event queue:
+	[A, customer:10,	0.4528025643263787]
+	[A, customer:08,	0.5747093628444706]
+	[D, customer:09,	0.6273503972512218]
+	[D, customer:02,	0.6769450568083937]
+delayed event queue:
+server1: Busy server2: Busy 
+--------------------------------------------------
+
+current time: 0.4528025643263787
+future event queue:
+	[A, customer:11,	0.5220956992585636]
+	[A, customer:08,	0.5747093628444706]
+	[D, customer:09,	0.6273503972512218]
+	[D, customer:02,	0.6769450568083937]
+delayed event queue:
+	[A, customer:10,	0.4528025643263787]
+server1: Busy server2: Busy 
+--------------------------------------------------
+
+current time: 0.5220956992585636
+future event queue:
+	[A, customer:12,	0.5501478528296924]
+	[A, customer:08,	0.5747093628444706]
+	[D, customer:09,	0.6273503972512218]
+	[D, customer:02,	0.6769450568083937]
+delayed event queue:
+	[A, customer:10,	0.4528025643263787]
+	[A, customer:11,	0.5220956992585636]
+server1: Busy server2: Busy 
+--------------------------------------------------
+
+current time: 0.5501478528296924
+future event queue:
+	[A, customer:08,	0.5747093628444706]
+	[D, customer:09,	0.6273503972512218]
+	[D, customer:02,	0.6769450568083937]
+	[A, customer:13,	0.7405747182474893]
+delayed event queue:
+	[A, customer:10,	0.4528025643263787]
+	[A, customer:11,	0.5220956992585636]
+	[A, customer:12,	0.5501478528296924]
+server1: Busy server2: Busy 
+--------------------------------------------------
+
+current time: 0.5747093628444706
+future event queue:
+	[D, customer:09,	0.6273503972512218]
+	[D, customer:02,	0.6769450568083937]
+	[A, customer:14,	0.7346392593404425]
+	[A, customer:13,	0.7405747182474893]
+delayed event queue:
+	[A, customer:10,	0.4528025643263787]
+	[A, customer:11,	0.5220956992585636]
+	[A, customer:12,	0.5501478528296924]
+	[A, customer:08,	0.5747093628444706]
+server1: Busy server2: Busy 
+--------------------------------------------------
+
+current time: 0.6273503972512218
+future event queue:
+	[D, customer:10,	0.6635322896928505]
+	[D, customer:02,	0.6769450568083937]
+	[A, customer:14,	0.7346392593404425]
+	[A, customer:13,	0.7405747182474893]
+delayed event queue:
+	[A, customer:11,	0.5220956992585636]
+	[A, customer:12,	0.5501478528296924]
+	[A, customer:08,	0.5747093628444706]
+server1: Busy server2: Busy 
+--------------------------------------------------
+
+current time: 0.6635322896928505
+future event queue:
+	[D, customer:11,	0.6712270471266547]
+	[D, customer:02,	0.6769450568083937]
+	[A, customer:14,	0.7346392593404425]
+	[A, customer:13,	0.7405747182474893]
+delayed event queue:
+	[A, customer:12,	0.5501478528296924]
+	[A, customer:08,	0.5747093628444706]
+server1: Busy server2: Busy 
+--------------------------------------------------
+
+current time: 0.6712270471266547
+future event queue:
+	[D, customer:02,	0.6769450568083937]
+	[D, customer:12,	0.7008040921261598]
+	[A, customer:14,	0.7346392593404425]
+	[A, customer:13,	0.7405747182474893]
+delayed event queue:
+	[A, customer:08,	0.5747093628444706]
+server1: Busy server2: Busy 
+--------------------------------------------------
+
+current time: 0.6769450568083937
+future event queue:
+	[D, customer:12,	0.7008040921261598]
+	[A, customer:14,	0.7346392593404425]
+	[A, customer:13,	0.7405747182474893]
+	[D, customer:08,	0.8050865858419605]
+delayed event queue:
+server1: Busy server2: Busy 
+--------------------------------------------------
+
+current time: 0.7008040921261598
+future event queue:
+	[A, customer:14,	0.7346392593404425]
+	[A, customer:13,	0.7405747182474893]
+	[D, customer:08,	0.8050865858419605]
+delayed event queue:
+server1: Busy server2: Idle 
+--------------------------------------------------
+
+current time: 0.7346392593404425
+future event queue:
+	[A, customer:13,	0.7405747182474893]
+	[D, customer:08,	0.8050865858419605]
+	[D, customer:14,	0.8447431970481891]
+	[A, customer:15,	1.0823043269029782]
+delayed event queue:
+server1: Busy server2: Busy 
+--------------------------------------------------
+
+current time: 0.7405747182474893
+future event queue:
+	[D, customer:08,	0.8050865858419605]
+	[D, customer:14,	0.8447431970481891]
+	[A, customer:16,	0.8612639853635644]
+	[A, customer:15,	1.0823043269029782]
+delayed event queue:
+	[A, customer:13,	0.7405747182474893]
+server1: Busy server2: Busy 
+--------------------------------------------------
+
+current time: 0.8050865858419605
+future event queue:
+	[D, customer:14,	0.8447431970481891]
+	[A, customer:16,	0.8612639853635644]
+	[D, customer:13,	0.8857720728512445]
+	[A, customer:15,	1.0823043269029782]
+delayed event queue:
+server1: Busy server2: Busy 
+--------------------------------------------------
+
+current time: 0.8447431970481891
+future event queue:
+	[A, customer:16,	0.8612639853635644]
+	[D, customer:13,	0.8857720728512445]
+	[A, customer:15,	1.0823043269029782]
+delayed event queue:
+server1: Busy server2: Idle 
+--------------------------------------------------
+
+current time: 0.8612639853635644
+future event queue:
+	[D, customer:13,	0.8857720728512445]
+	[D, customer:16,	0.9727471108446741]
+	[A, customer:15,	1.0823043269029782]
+	[A, customer:17,	1.1314622088097286]
+delayed event queue:
+server1: Busy server2: Busy 
+--------------------------------------------------
+
+current time: 0.8857720728512445
+future event queue:
+	[D, customer:16,	0.9727471108446741]
+	[A, customer:15,	1.0823043269029782]
+	[A, customer:17,	1.1314622088097286]
+delayed event queue:
+server1: Busy server2: Idle 
+--------------------------------------------------
+
+current time: 0.9727471108446741
+future event queue:
+	[A, customer:15,	1.0823043269029782]
+	[A, customer:17,	1.1314622088097286]
+delayed event queue:
+server1: Busy server2: Idle 
+--------------------------------------------------
+
+current time: 1.0823043269029782
+future event queue:
+	[A, customer:17,	1.1314622088097286]
+	[D, customer:15,	1.2406501016017155]
+	[A, customer:18,	1.2449221424180283]
+delayed event queue:
+server1: Busy server2: Busy 
+--------------------------------------------------
+
+current time: 1.1314622088097286
+future event queue:
+	[A, customer:19,	1.1937536570432856]
+	[D, customer:15,	1.2406501016017155]
+	[A, customer:18,	1.2449221424180283]
+delayed event queue:
+	[A, customer:17,	1.1314622088097286]
+server1: Busy server2: Busy 
+--------------------------------------------------
+
+current time: 1.1937536570432856
+future event queue:
+	[D, customer:15,	1.2406501016017155]
+	[A, customer:18,	1.2449221424180283]
+	[A, customer:20,	1.3376450561037523]
+delayed event queue:
+	[A, customer:17,	1.1314622088097286]
+	[A, customer:19,	1.1937536570432856]
+server1: Busy server2: Busy 
+--------------------------------------------------
+
+current time: 1.2406501016017155
+future event queue:
+	[A, customer:18,	1.2449221424180283]
+	[A, customer:20,	1.3376450561037523]
+	[D, customer:17,	1.353265790966128]
+delayed event queue:
+	[A, customer:19,	1.1937536570432856]
+server1: Busy server2: Busy 
+--------------------------------------------------
+
+current time: 1.2449221424180283
+future event queue:
+	[A, customer:20,	1.3376450561037523]
+	[D, customer:17,	1.353265790966128]
+	[A, customer:21,	1.4541551710254221]
+delayed event queue:
+	[A, customer:19,	1.1937536570432856]
+	[A, customer:18,	1.2449221424180283]
+server1: Busy server2: Busy 
+--------------------------------------------------
+
+current time: 1.3376450561037523
+future event queue:
+	[D, customer:17,	1.353265790966128]
+	[A, customer:22,	1.359096019806213]
+	[A, customer:21,	1.4541551710254221]
+delayed event queue:
+	[A, customer:19,	1.1937536570432856]
+	[A, customer:18,	1.2449221424180283]
+	[A, customer:20,	1.3376450561037523]
+server1: Busy server2: Busy 
+--------------------------------------------------
+
+current time: 1.353265790966128
+future event queue:
+	[A, customer:22,	1.359096019806213]
+	[D, customer:19,	1.4135215730998059]
+	[A, customer:21,	1.4541551710254221]
+delayed event queue:
+	[A, customer:18,	1.2449221424180283]
+	[A, customer:20,	1.3376450561037523]
+server1: Busy server2: Busy 
+--------------------------------------------------
+
+current time: 1.359096019806213
+future event queue:
+	[A, customer:23,	1.3957589867157856]
+	[D, customer:19,	1.4135215730998059]
+	[A, customer:21,	1.4541551710254221]
+delayed event queue:
+	[A, customer:18,	1.2449221424180283]
+	[A, customer:20,	1.3376450561037523]
+	[A, customer:22,	1.359096019806213]
+server1: Busy server2: Busy 
+--------------------------------------------------
+
+current time: 1.3957589867157856
+future event queue:
+	[A, customer:24,	1.4057471765423775]
+	[D, customer:19,	1.4135215730998059]
+	[A, customer:21,	1.4541551710254221]
+delayed event queue:
+	[A, customer:18,	1.2449221424180283]
+	[A, customer:20,	1.3376450561037523]
+	[A, customer:22,	1.359096019806213]
+	[A, customer:23,	1.3957589867157856]
+server1: Busy server2: Busy 
+--------------------------------------------------
+
+current time: 1.4057471765423775
+future event queue:
+	[D, customer:19,	1.4135215730998059]
+	[A, customer:21,	1.4541551710254221]
+	[A, customer:25,	1.4639300878921904]
+delayed event queue:
+	[A, customer:18,	1.2449221424180283]
+	[A, customer:20,	1.3376450561037523]
+	[A, customer:22,	1.359096019806213]
+	[A, customer:23,	1.3957589867157856]
+	[A, customer:24,	1.4057471765423775]
+server1: Busy server2: Busy 
+--------------------------------------------------
+
+current time: 1.4135215730998059
+future event queue:
+	[A, customer:21,	1.4541551710254221]
+	[A, customer:25,	1.4639300878921904]
+	[D, customer:18,	1.5721935214071245]
+delayed event queue:
+	[A, customer:20,	1.3376450561037523]
+	[A, customer:22,	1.359096019806213]
+	[A, customer:23,	1.3957589867157856]
+	[A, customer:24,	1.4057471765423775]
+server1: Busy server2: Busy 
+--------------------------------------------------
+
+current time: 1.4541551710254221
+future event queue:
+	[A, customer:25,	1.4639300878921904]
+	[A, customer:26,	1.5141018142348717]
+	[D, customer:18,	1.5721935214071245]
+delayed event queue:
+	[A, customer:20,	1.3376450561037523]
+	[A, customer:22,	1.359096019806213]
+	[A, customer:23,	1.3957589867157856]
+	[A, customer:24,	1.4057471765423775]
+	[A, customer:21,	1.4541551710254221]
+server1: Busy server2: Busy 
+--------------------------------------------------
+
+current time: 1.4639300878921904
+future event queue:
+	[A, customer:26,	1.5141018142348717]
+	[A, customer:27,	1.5523360755597564]
+	[D, customer:18,	1.5721935214071245]
+delayed event queue:
+	[A, customer:20,	1.3376450561037523]
+	[A, customer:22,	1.359096019806213]
+	[A, customer:23,	1.3957589867157856]
+	[A, customer:24,	1.4057471765423775]
+	[A, customer:21,	1.4541551710254221]
+	[A, customer:25,	1.4639300878921904]
+server1: Busy server2: Busy 
+--------------------------------------------------
+
+current time: 1.5141018142348717
+future event queue:
+	[A, customer:27,	1.5523360755597564]
+	[D, customer:18,	1.5721935214071245]
+	[A, customer:28,	1.6349662033913026]
+delayed event queue:
+	[A, customer:20,	1.3376450561037523]
+	[A, customer:22,	1.359096019806213]
+	[A, customer:23,	1.3957589867157856]
+	[A, customer:24,	1.4057471765423775]
+	[A, customer:21,	1.4541551710254221]
+	[A, customer:25,	1.4639300878921904]
+	[A, customer:26,	1.5141018142348717]
+server1: Busy server2: Busy 
+--------------------------------------------------
+
+current time: 1.5523360755597564
+future event queue:
+	[D, customer:18,	1.5721935214071245]
+	[A, customer:29,	1.6106735578726072]
+	[A, customer:28,	1.6349662033913026]
+delayed event queue:
+	[A, customer:20,	1.3376450561037523]
+	[A, customer:22,	1.359096019806213]
+	[A, customer:23,	1.3957589867157856]
+	[A, customer:24,	1.4057471765423775]
+	[A, customer:21,	1.4541551710254221]
+	[A, customer:25,	1.4639300878921904]
+	[A, customer:26,	1.5141018142348717]
+	[A, customer:27,	1.5523360755597564]
+server1: Busy server2: Busy 
+--------------------------------------------------
+
+current time: 1.5721935214071245
+future event queue:
+	[A, customer:29,	1.6106735578726072]
+	[A, customer:28,	1.6349662033913026]
+	[D, customer:20,	1.740920757432365]
+delayed event queue:
+	[A, customer:22,	1.359096019806213]
+	[A, customer:23,	1.3957589867157856]
+	[A, customer:24,	1.4057471765423775]
+	[A, customer:21,	1.4541551710254221]
+	[A, customer:25,	1.4639300878921904]
+	[A, customer:26,	1.5141018142348717]
+	[A, customer:27,	1.5523360755597564]
+server1: Busy server2: Busy 
+--------------------------------------------------
+
+current time: 1.6106735578726072
+future event queue:
+	[A, customer:28,	1.6349662033913026]
+	[A, customer:30,	1.7080003540373987]
+	[D, customer:20,	1.740920757432365]
+delayed event queue:
+	[A, customer:22,	1.359096019806213]
+	[A, customer:23,	1.3957589867157856]
+	[A, customer:24,	1.4057471765423775]
+	[A, customer:21,	1.4541551710254221]
+	[A, customer:25,	1.4639300878921904]
+	[A, customer:26,	1.5141018142348717]
+	[A, customer:27,	1.5523360755597564]
+	[A, customer:29,	1.6106735578726072]
+server1: Busy server2: Busy 
+--------------------------------------------------
+
+current time: 1.6349662033913026
+future event queue:
+	[A, customer:31,	1.643226342924154]
+	[A, customer:30,	1.7080003540373987]
+	[D, customer:20,	1.740920757432365]
+delayed event queue:
+	[A, customer:22,	1.359096019806213]
+	[A, customer:23,	1.3957589867157856]
+	[A, customer:24,	1.4057471765423775]
+	[A, customer:21,	1.4541551710254221]
+	[A, customer:25,	1.4639300878921904]
+	[A, customer:26,	1.5141018142348717]
+	[A, customer:27,	1.5523360755597564]
+	[A, customer:29,	1.6106735578726072]
+	[A, customer:28,	1.6349662033913026]
+server1: Busy server2: Busy 
+--------------------------------------------------
+
+current time: 1.643226342924154
+future event queue:
+	[A, customer:30,	1.7080003540373987]
+	[D, customer:20,	1.740920757432365]
+	[A, customer:32,	1.770001748018315]
+delayed event queue:
+	[A, customer:22,	1.359096019806213]
+	[A, customer:23,	1.3957589867157856]
+	[A, customer:24,	1.4057471765423775]
+	[A, customer:21,	1.4541551710254221]
+	[A, customer:25,	1.4639300878921904]
+	[A, customer:26,	1.5141018142348717]
+	[A, customer:27,	1.5523360755597564]
+	[A, customer:29,	1.6106735578726072]
+	[A, customer:28,	1.6349662033913026]
+	[A, customer:31,	1.643226342924154]
+server1: Busy server2: Busy 
+--------------------------------------------------
+
